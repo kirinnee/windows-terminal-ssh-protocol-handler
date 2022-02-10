@@ -16,3 +16,6 @@ Allows browsers to recognize the SSH protocol and open it in [Windows Terminal](
     ```
 3. Edit the configuration in `main.ps1` to your liking
 4. Double click `install.reg` to install it to in the register.
+
+## Uninstall
+1. Click on `uninstall.reg` to uninstall
