@@ -10,4 +10,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\ssh\shell\open]
 
 [HKEY_CLASSES_ROOT\ssh\shell\open\command]
-@="powershell \"C:\\Users\\kirinnee\\Documents\\PowerShell\\Scripts\\windows-terminal-ssh-protocol-handler\\main.ps1\" %1"
+@="powershell \"C:\\Users\\<user>\\Documents\\PowerShell\\Scripts\\windows-terminal-ssh-protocol-handler\\main.ps1\" %1"
