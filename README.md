@@ -10,9 +10,9 @@ Allows browsers to recognize the SSH protocol and open it in [Windows Terminal](
     ```
     git clone https://github.com/kirinnee/windows-terminal-ssh-protocol-handler.git
     ```
-2. Open `browser-ssh-handler.reg` and change line 15's `<user>` to your Window user
+2. Open `install.reg` and change line 15's `<user>` to your Window user
     ```
     @="powershell \"C:\\Users\\<user>\\Documents\\PowerShell\\Scripts\\windows-terminal-ssh-protocol-handler\\main.ps1\" %1"
     ```
 3. Edit the configuration in `main.ps1` to your liking
-4. Double click `browser-ssh-handler.reg` to install it to in the register.
+4. Double click `install.reg` to install it to in the register.
